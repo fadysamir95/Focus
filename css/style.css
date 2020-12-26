@@ -22,7 +22,6 @@ h2 {
 .sec-name {
     color: #A47A54;
     font-size: 15px;
-    /* font-family: NeueMontreal-Regular; */
 }
 .text {
     font-size: 13px;
@@ -779,84 +778,4 @@ footer .navbar .btn:hover, .navbar .btn:active, .navbar .btn:focus {
     background-color: #D1843D !important;
     border-color: #D1843D !important;
     box-shadow: none !important;
-}
-
-
-
-
-
-
-.item {
-    border: none;
-    margin-bottom: 30px;
-    border-radius: 4px;
-}
-.item a {
-    display: block;
-    overflow: hidden;
-    position: relative;
-    border-radius: 4px;
-}
-.gsap-reveal-img .reveal-wrap {
-    position: relative;
-    overflow: hidden;
-}
-.gsap-reveal-img .reveal-wrap .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #eee;
-    margin-left: -100%;
-    z-index: 9;
-}
-.gsap-reveal-img .reveal-wrap .reveal-content {
-    opacity: 0;
-    visibility: hidden;
-}
-.portfolio-item .overlay, .portfolio-item .overlay:before, .blog-item .overlay, .blog-item .overlay:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.portfolio-item .overlay, .blog-item .overlay {
-    position: relative;
-    z-index: 8;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-}
-.portfolio-item .overlay, .portfolio-item .overlay:before, .blog-item .overlay, .blog-item .overlay:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.portfolio-item .overlay:before, .blog-item .overlay:before {
-    background: rgba(0,0,0,.5);
-    content: "";
-}
-.portfolio-item .wrap-icon, .blog-item .wrap-icon {
-    position: absolute;
-    right: 20px;
-    color: #fff;
-    top: 20px;
-}
-.portfolio-item .portfolio-item-content, .blog-item .portfolio-item-content {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-}
-.gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
-    margin-bottom: 10px;
-}
-.portfolio-item .portfolio-item-content h3, .blog-item .portfolio-item-content h3 {
-    font-size: 18px;
 }
